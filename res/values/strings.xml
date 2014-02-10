@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Masterminesms</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">welcome to sending a message</string>
+    <string name="send">Send</string>
+    <string name="to">To</string>
+    <string name="msg">Message</string>
+     <string name="mmsg">Compose Message</string>
+    <string name="btnms">SEND</string>
+    <string name="btsave">SAVE</string>
+    <string name="chkbx">Notify before Sending</string>
+    <string name="btnsendsms">Send Normal Sms</string>
+    <string name="btnautosms">Send Sms Automatically</string>
+    <string name="btnviewsms">View Sms Threads</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="ttime">Time "HH/MM"</string>
+    <string name="ddate">Date "MM/dd/yy"</string>
+
+</resources>

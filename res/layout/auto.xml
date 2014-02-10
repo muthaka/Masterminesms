@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Register" >
+    
+    <RelativeLayout
+        android:layout_width="317dp"
+        android:layout_height="629dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <EditText
+            android:id="@+id/edtato"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:hint="@string/to"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/dtpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tmpicker"
+            android:layout_alignRight="@+id/tmpicker"
+            android:layout_below="@+id/tmpicker"
+            android:layout_marginTop="57dp"
+            android:hint="@string/ddate" />
+
+        <CheckBox
+            android:id="@+id/chckbx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dtpicker"
+            android:layout_below="@+id/dtpicker"
+            android:layout_marginTop="38dp"
+            android:textSize="20sp"
+            android:text="@string/chkbx" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtato"
+            android:layout_below="@+id/edtato"
+            android:layout_marginTop="18dp"
+            android:text="@string/msg"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/tmpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignRight="@+id/edtato"
+            android:layout_below="@+id/edtmessg"
+            android:layout_marginTop="31dp"
+            android:hint="@string/ttime" />
+
+        <EditText
+            android:id="@+id/edtmessg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/tmpicker"
+            android:layout_alignParentRight="true"
+            android:hint="@string/mmsg"
+            android:layout_below="@+id/textView2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="75dp"
+            android:text="@string/btsave" />
+        
+    </RelativeLayout>
+</ScrollView>

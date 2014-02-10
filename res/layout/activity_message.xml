@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MessageActivity" >
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/tophone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/display"
+        android:layout_below="@+id/display"
+        android:layout_marginTop="21dp"
+        android:text="@string/to" />
+
+    <EditText
+        android:id="@+id/phonee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tophone"
+        android:layout_below="@+id/tophone"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/msssg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phonee"
+        android:layout_below="@+id/phonee"
+        android:layout_marginTop="15dp"
+        android:text="@string/msg" />
+
+    <EditText
+        android:id="@+id/messagee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/msssg"
+        android:layout_below="@+id/msssg"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/sendd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/messagee"
+        android:layout_below="@+id/messagee"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnms" />
+
+    <TextView
+        android:id="@+id/txtreceiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sendd"
+        android:layout_below="@+id/sendd"
+       
+         />
+
+</RelativeLayout>
